@@ -584,7 +584,7 @@ G.ct=el=>{clr(el);let sc=0,lv=3,pd=deck(),tg,lane=1,y=0,cs=[],on=0,last=0;
  go(1);round();el._raf=requestAnimationFrame(tick)};
 
 /* попугай: повтори последовательность */
-G.sm=el=>{clr(el);let tok=0,lv=3,len=2,seq=[R(4),R(4)],pos=0,busy=1;const ws=sh(W).slice(0,4),cols=['#e57373','#64b5f6','#81c784','#ffd54f'];
+G.sm=el=>{clr(el);let tok=0,lv=3,len=2,seq=[R(4),R(4)],pos=0,busy=1;const ws=sh(W).slice(0,4),cols=['#e57373','#64b5f6','#81c784','#ba68c8'];
  const bar=E('div','gst'),pr=E('div','gpr'),pads=E('div','og sm4');el.append(bar,pr,pads);
  const stat=()=>bar.innerHTML='<span>🦜 Длина: '+len+' / 7</span><span>'+hrt(lv)+'</span>';
  const wt=ms=>new Promise(r=>setTimeout(r,ms));
