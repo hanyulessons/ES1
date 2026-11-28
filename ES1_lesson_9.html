@@ -4,8 +4,8 @@
 <!-- ШРИФТЫ: Nunito (текст), Noto Serif SC (иероглифы), Ma Shan Zheng (каллиграфия: печать и титул). Для другого урока можно заменить на другие шрифты с поддержкой кириллицы и CJK. -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Noto+Serif+SC:wght@500;700&family=Ma+Shan+Zheng&display=swap">
 <style>
-:root{--bg:#f8f0e0;--bg2:#efe2c8;--ink:#2b2420;--ink2:#6b5d50;--card:#fffdf8;--line:#e5d7ba;--acc:#2f5d8a;--acc2:#23476b;--seal:#d9532b;--gold:#e0a526;--ok:#2e8b57;--bad:#c0392b;--wave:#b4482f;--sh:0 2px 0 rgba(120,90,50,.10),0 14px 28px -16px rgba(90,60,30,.35)}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1a1714;--bg2:#221e1a;--ink:#f1e7d3;--ink2:#b9a992;--card:#2a2520;--line:#463d33;--acc:#8fb8e6;--acc2:#b3d0f0;--seal:#f08a63;--gold:#e0a955;--wave:#e5c08a;--sh:0 2px 0 rgba(0,0,0,.3),0 14px 28px -16px rgba(0,0,0,.7);color-scheme:dark}}
+:root{--bg:#f8f0e0;--bg2:#efe2c8;--ink:#2b2420;--ink2:#6b5d50;--card:#fffdf8;--line:#e5d7ba;--acc:#5c2f8a;--acc2:#47236b;--seal:#d9532b;--gold:#e0a526;--ok:#2e8b57;--bad:#c0392b;--wave:#b4482f;--sh:0 2px 0 rgba(120,90,50,.10),0 14px 28px -16px rgba(90,60,30,.35)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1a1714;--bg2:#221e1a;--ink:#f1e7d3;--ink2:#b9a992;--card:#2a2520;--line:#463d33;--acc:#ba8fe6;--acc2:#d1b3f0;--seal:#f08a63;--gold:#e0a955;--wave:#e5c08a;--sh:0 2px 0 rgba(0,0,0,.3),0 14px 28px -16px rgba(0,0,0,.7);color-scheme:dark}}
 *{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;color:var(--ink);font:17px/1.55 "Nunito",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:env(safe-area-inset-top,0px);
 background:radial-gradient(1200px 500px at 85% -10%,rgba(201,141,58,.18),transparent 60%),radial-gradient(900px 500px at -10% 30%,rgba(42,122,130,.14),transparent 60%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30' viewBox='0 0 60 30'%3E%3Cg fill='none' stroke='%23b4482f' stroke-opacity='.08' stroke-width='1.2'%3E%3Ccircle cx='15' cy='30' r='14'/%3E%3Ccircle cx='15' cy='30' r='9'/%3E%3Ccircle cx='45' cy='30' r='14'/%3E%3Ccircle cx='45' cy='30' r='9'/%3E%3Ccircle cx='30' cy='15' r='14'/%3E%3Ccircle cx='30' cy='15' r='9'/%3E%3C/g%3E%3C/svg%3E"),linear-gradient(var(--bg),var(--bg2));background-attachment:fixed}
@@ -58,7 +58,7 @@ details{margin-top:14px;background:var(--card);border:1px solid var(--line);bord
 .tn input{width:5.5rem}.tn .o{font-size:1.6rem;min-width:3em}.vi input{width:11rem}.vi input.ok{border-color:var(--ok)}.vi input.bad{border-color:var(--bad)}.tn input.ok{border-color:var(--ok)}.tn input.bad{border-color:var(--bad)}
 .rq{margin-top:12px}
 ruby{ruby-position:under;ruby-align:center;padding:0 .1em}rt.py,.card.big .hz rt.py{font-family:Nunito,system-ui,sans-serif;font-size:var(--pysz,.8em);font-weight:500;letter-spacing:0;opacity:.9}.rbs{line-height:1.2}.rq.bl p.mini{filter:blur(7px);cursor:pointer;transition:filter .25s;min-height:1.4em}.rq.bl p.mini.show{filter:none}
-body{background:repeating-linear-gradient(135deg,rgba(47,93,138,.075) 0 2px,transparent 2px 24px),var(--bg)}
+body{background:repeating-linear-gradient(135deg,rgba(92,47,138,.075) 0 2px,transparent 2px 24px),var(--bg)}
 
 /* v3: единые размеры. --pysz: пиньинь = доля от иероглифа (не меньше .8) */
 :root{--pysz:.8em}
@@ -123,7 +123,7 @@ select{font-size:1.5rem}input:not([type=checkbox]){font-size:1.3rem}.hz .hz{font
 .gm .gst{display:flex;justify-content:space-between;gap:8px;font-weight:700;margin:6px 0}
 .gm .gpr{text-align:center;font-size:1.25rem;margin:8px 0;min-height:2.4rem}
 .gm .arena{position:relative;height:380px;overflow:hidden;border-radius:16px;border:2px solid var(--line);touch-action:manipulation;user-select:none}
-.gm .nj{background:linear-gradient(#1b2a49,#4a3570)}.gm .sp{background:radial-gradient(circle at 70% 20%,#2c4a86,#0b1230)}
+.gm .nj{background:linear-gradient(#321b49,#4a3570)}.gm .sp{background:radial-gradient(circle at 70% 20%,#592c86,#1d0b30)}
 .gm .it{position:absolute;min-width:64px;min-height:56px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit;padding:6px 10px;cursor:pointer;line-height:1.15}
 .gm .gb{font:inherit;font-weight:700;min-height:48px;padding:8px 14px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 .gm .gb.s{min-height:40px;padding:4px 10px}.gm .gb.ok,.gm .gb.sel{background:rgba(46,139,87,.22);border-color:var(--ok)}.gm .gb.bad{background:rgba(192,57,43,.22);border-color:var(--bad)}
@@ -139,8 +139,8 @@ select{font-size:1.5rem}input:not([type=checkbox]){font-size:1.3rem}.hz .hz{font
 .gm .mem{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}.gm .mc{min-height:78px;padding:4px;font-size:.95rem}
 .gm .duel{border:2px solid var(--line);border-radius:16px;overflow:hidden}.gm .dh{padding:8px 10px}.gm .dh.f{transform:rotate(180deg)}.gm .mid{text-align:center;padding:8px;background:var(--bg2);font-size:1.2rem}
 .gm .pyin{font:inherit;font-size:1.2rem;padding:8px 12px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);min-width:0;flex:1}.gm .pyin.bad{border-color:var(--bad)}
-.gm .bl{background:linear-gradient(#8fd3ff,#e9f7ff)}.gm .bl .it{border-radius:50%/58% 58% 42% 42%;min-width:84px;min-height:96px;background:#ff9fb0;color:#2b2420;border-color:#fff;font-size:1.05rem}
-.gm .fi{background:linear-gradient(#7fd3ff,#0e5a8c)}.gm .fi .it{border-radius:30px;background:#ffd27a;color:#2b2420;border-color:#fff}
+.gm .bl{background:linear-gradient(#c78fff,#f4e9ff)}.gm .bl .it{border-radius:50%/58% 58% 42% 42%;min-width:84px;min-height:96px;background:#ff9fb0;color:#2b2420;border-color:#fff;font-size:1.05rem}
+.gm .fi{background:linear-gradient(#bf7fff,#4d0e8c)}.gm .fi .it{border-radius:30px;background:#ffd27a;color:#2b2420;border-color:#fff}
 .gm .belt{height:96px;border-radius:14px;background:repeating-linear-gradient(90deg,#555 0 18px,#666 18px 36px);display:flex;align-items:center;justify-content:center;margin:8px 0;overflow:hidden}
 .gm .bx{display:inline-block;background:var(--card);color:var(--ink);border:2px solid var(--gold);border-radius:12px;padding:4px 16px;text-align:center;animation:gmb .5s}@keyframes gmb{from{transform:translateX(-120%)}to{transform:none}}
 .gm .ct{background:linear-gradient(#bfe8a8,#7bbf5a)}.gm .lane3{position:absolute;top:0;bottom:0;width:33.333%;border-right:1px dashed rgba(0,0,0,.25)}
@@ -585,7 +585,7 @@ G.ct=el=>{clr(el);let sc=0,lv=3,pd=deck(),tg,lane=1,y=0,cs=[],on=0,last=0;
  go(1);round();el._raf=requestAnimationFrame(tick)};
 
 /* попугай: повтори последовательность */
-G.sm=el=>{clr(el);let tok=0,lv=3,len=2,seq=[R(4),R(4)],pos=0,busy=1;const ws=sh(W).slice(0,4),cols=['#e57373','#64b5f6','#81c784','#ffd54f'];
+G.sm=el=>{clr(el);let tok=0,lv=3,len=2,seq=[R(4),R(4)],pos=0,busy=1;const ws=sh(W).slice(0,4),cols=['#e57373','#ad64f6','#81c784','#ffd54f'];
  const bar=E('div','gst'),pr=E('div','gpr'),pads=E('div','og sm4');el.append(bar,pr,pads);
  const stat=()=>bar.innerHTML='<span>🦜 Длина: '+len+' / 7</span><span>'+hrt(lv)+'</span>';
  const wt=ms=>new Promise(r=>setTimeout(r,ms));
